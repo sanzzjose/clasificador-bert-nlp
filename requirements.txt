@@ -1,0 +1,11 @@
+# Dependencias principales del proyecto.
+# Las versiones exactas se congelaran (pip freeze) cuando el entorno este cerrado,
+# para garantizar reproducibilidad.
+tensorflow
+transformers
+datasets
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn

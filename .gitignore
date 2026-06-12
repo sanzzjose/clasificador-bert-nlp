@@ -1,0 +1,47 @@
+# Material del profesor: se mantiene en local como referencia, no se versiona
+SAAA_Tema_0_RNN_to_LLM.pdf
+SAAA_Tema_2_LLMs.pdf
+Session_1_bert_encoder_only_architectures.ipynb
+Session_2_GPT_decoder_only_architectures.ipynb
+Entregable_SAAA_25_26_Parte_III_enunciado.ipynb
+PLN/
+
+# Entornos y cache de Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.python-version
+
+# Artefactos de modelos y embeddings (pesados, no versionar)
+*.h5
+*.keras
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+checkpoints/
+modelos/
+embeddings/
+*.npy
+*.npz
+
+# Cache de Hugging Face
+.cache/
+hf_cache/
+
+# Datos pesados: por defecto no se versiona la carpeta de datos grandes.
+# Los datasets pequenos pueden anadirse de forma explicita (ver README).
+data/large/
+*.zip
+*.tar.gz
+*.tar
+*.gz
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
